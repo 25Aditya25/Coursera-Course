@@ -1,44 +1,61 @@
-<!doctype HTML>
-<html>
-
-<head>
-<meta charset="utf-8">
-<title>Assignment Solution for Module 2</title>
-<link rel="stylesheet" type="text/css" href="css/Styles.css">
-</head>
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food, LLC</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
 <body>
-<h1>Our Menu</h1>
+<header>
+  <nav id="header-nav" class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header ">
+        <div class="header-div navbar-brand" >
+           <a href="index.html"><h2 >Food, LLC</h2></a>
+        </div>
 
-<section class="col-lg-1 col-lg-2 col-lg-3">
-<label class="Pink">Chicken</label>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+        <ul id="nav-list" class="nav navbar-nav navbar-right">
+          <li class="visible-xs active">
+            <h3><a><br class="hidden-xs">Chicken</a></h3>
+          </li>
+          <li class="visible-xs active">
+            <h3><a><br class="hidden-xs">Beef</a></h3>
+          </li>
+          <li class="visible-xs active">
+            <h3><a><br class="hidden-xs">Sushi</a></h3>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div id="spacer"><h1></h1></div>
 
 <div>
-	
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    <h2 class="text-center">Our Menu</h2>
 </div>
-</section>
-
-<section class="col-lg-1 col-lg-2 col-lg-3">
-<label class="Red">Beef</label>
-<div>
-	
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+<div class="container-fluid">
+<div class="col-lg-12 col-md-12 col-xs-12 mainText">
+  
 </div>
-</section>
-
-<section class="col-lg-1 col-lg-2  full col-lg-3">
-<label class="Yellow">Sushi</label>
-<div>
-	
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 </div>
-</section>
+  
 
-
-
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
-
-
-
 </html>
