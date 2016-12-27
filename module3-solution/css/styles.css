@@ -1,0 +1,57 @@
+body{
+	font-size: 16px;
+	
+}
+
+
+
+/** Header **/
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+	height: 65px;
+	}
+ 
+.header-div{
+	padding: 0px 10px 10px 10px;
+} 
+
+.navbar-brand h1{
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	color: #55733e;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+li h3{
+	text-align: center;
+}
+
+#collapsable-nav{
+	background-color: #f6b319;
+}
+
+h3 a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.mainText{
+    box-sizing: border-box;
+    background-color: grey;
+    height: 1000px;
+    margin-right: -20px;
+   
+    color: black;
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 150%;
+}
+/**#spacer{
+	height: 120px;
+}**/
